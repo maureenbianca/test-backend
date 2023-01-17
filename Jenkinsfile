@@ -8,5 +8,10 @@ pipeline {
                 sh 'mvn --version'
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'date'
+            }
+        }
     }
 }
